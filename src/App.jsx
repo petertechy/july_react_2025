@@ -5,6 +5,7 @@ import AboutPage from './pages/AboutPage'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import UserProfile from './pages/UserProfile'
+import FormData from './pages/FormData'
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
         <Route path="aboutus" element={<Navigate to="about" />}/>
 
         <Route path='contact' element={<Contact/>}/>
+
+        <Route path='form' element={<FormData/>}/>
 
         <Route path='profile/:id' element={<UserProfile/>}/>
 
