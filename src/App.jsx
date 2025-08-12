@@ -11,6 +11,7 @@ import Meat from "./pages/Meat";
 import Product from "./pages/Product";
 import FetchData from "./pages/FetchData";
 import LoadUsers from "./pages/LoadUsers";
+import Formik from "./pages/Formik";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="profile/:id" element={<UserProfile />} />
         <Route path="fetch" element={<FetchData />} />
         <Route path="load" element={<LoadUsers />} />
+        <Route path="formik" element={<Formik/>}/>
 
 
         <Route path="product" element={<Product />}>
