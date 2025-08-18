@@ -12,6 +12,8 @@ import Product from "./pages/Product";
 import FetchData from "./pages/FetchData";
 import LoadUsers from "./pages/LoadUsers";
 import Formik from "./pages/Formik";
+import ClassReact from "./pages/ClassReact";
+import Reference from "./pages/Reference";
 
 const App = () => {
   return (
@@ -31,6 +33,8 @@ const App = () => {
         <Route path="fetch" element={<FetchData />} />
         <Route path="load" element={<LoadUsers />} />
         <Route path="formik" element={<Formik/>}/>
+        <Route path="ref" element={<Reference/>}/>
+        <Route path="class" element={<ClassReact title="Good morning" age="30"/>}/>
 
 
         <Route path="product" element={<Product />}>
