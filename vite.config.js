@@ -28,7 +28,7 @@ export default defineConfig({
         navigateFallback: '/index.html'
       },
       devOptions: {
-        enabled: true, // see caching in dev for easier testing
+        enabled: true,
       }
     })
   ]
