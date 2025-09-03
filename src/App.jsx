@@ -14,6 +14,7 @@ import LoadUsers from "./pages/LoadUsers";
 import Formik from "./pages/Formik";
 import ClassReact from "./pages/ClassReact";
 import Reference from "./pages/Reference";
+import SignUp from "./pages/SignUp";
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="load" element={<LoadUsers />} />
         <Route path="formik" element={<Formik/>}/>
         <Route path="ref" element={<Reference/>}/>
+        <Route path="signup" element={<SignUp/>}/>
         <Route path="class" element={<ClassReact title="Good morning" age="30"/>}/>
 
 
