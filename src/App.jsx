@@ -17,6 +17,7 @@ import Reference from "./pages/Reference";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
+import FileUpload from "./pages/FileUpload";
 
 const App = () => {
   let token = localStorage.token
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="ref" element={<Reference/>}/>
         <Route path="signup" element={<SignUp/>}/>
         <Route path="signin" element={<SignIn/>}/>
+        <Route path="file" element={<FileUpload/>}/>
         <Route path="dashboard" element={token ? <Dashboard/>: <Navigate to="/signin"/>}/>
         <Route path="class" element={<ClassReact title="Good morning" age="30"/>}/>
 
